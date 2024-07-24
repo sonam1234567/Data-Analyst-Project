@@ -12,3 +12,10 @@ Remove decial points.
 
 5.To make a range of age group we use the If statments:
 =IF(L2>54,"Old", IF(L2>=31,"Middle Age",IF(L2<31,"Adolescent","Invalid")))
+
+6. Creating a Pivot Table.
+First create a Pivot Table =>Insert-> Pivot Table
+Select the worksheet after selecting all the values of it.
+
+7.Creating a multiple Pivot table on the same sheet.
+We select the Pivot table creation and then we select the existing sheet and then select cell where we want to create pivot table.
