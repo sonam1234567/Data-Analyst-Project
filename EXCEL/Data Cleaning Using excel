@@ -19,6 +19,8 @@ Data-> Data Cleanup -> Trim whitespaces
 => Create filter just in case if there are groups and some groups are spelled inccorect we can correct it.
 
 -> Look for symbols like $ and others as this might not let the data to be imported to SQL database correctly.
-
+=> Convert the currency to numbers and remove decimal points if the values are .000. Format->Number->Number
 
 -> Look for the dates column and mke sure they are formatted correctly.
+After selecting the date field we do the following:
+=>Format -> Number -> date
