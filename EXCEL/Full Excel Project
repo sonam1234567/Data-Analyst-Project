@@ -7,4 +7,8 @@
 Goto edit-> Find and replace.
 
 4.Remove the Currency symbol.
+Goto Format-> Number(If needed)
+Remove decial points.
 
+5.To make a range of age group we use the If statments:
+=IF(L2>54,"Old", IF(L2>=31,"Middle Age",IF(L2<31,"Adolescent","Invalid")))
