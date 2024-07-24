@@ -3,11 +3,22 @@
 1. The first step done is the creation of the raw data duplication
 -> Doing so help us look back at the raw data or gather informations from it if we deleted any crucial data.
 
+
 2. During the cleaning of the data we have too look into the following things first:
 -> Duplcaite Data
+For removing the duplicate data we have to goto the following steps after selecting all the column and data:
+Data-> Data Cleanup -> Remove Duplicates
+
 -> Formatting and standarization(For instance you want to make sure that all the name column of your data has the same cases 
 caps or lower, check for spelling errors, additonal spaces.)
+=>To make the column either lower or upper we do the following:
+  =upper(select the cell)
+=>For Trimming the whitespaces we can do:
+Data-> Data Cleanup -> Trim whitespaces
+=trim(select the cell)
+=> Create filter just in case if there are groups and some groups are spelled inccorect we can correct it.
 
-3. Look for symbols like $ and others as this might not let the data to be imported to SQL database correctly.
+-> Look for symbols like $ and others as this might not let the data to be imported to SQL database correctly.
 
-4.Look for the dates column and mke sure they are formatted correctly.
+
+-> Look for the dates column and mke sure they are formatted correctly.
