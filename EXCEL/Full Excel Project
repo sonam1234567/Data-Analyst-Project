@@ -21,3 +21,5 @@ Select the worksheet after selecting all the values of it.
 We select the Pivot table creation and then we select the existing sheet and then select cell where we want to create pivot table.
 
 8.Create a Pivot chart and make dashboard. Also we can use pivot slicer for creating filteration.
+-> Pivot Analyzer ->Insert slicer 
+Insert slicer helps provide filteration on the basis of a particular values.
